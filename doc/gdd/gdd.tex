@@ -1,0 +1,70 @@
+% David Saltares Márquez (C) 2011
+
+
+\documentclass[a4paper, 11pt]{article}
+
+
+% Styles, packages and dirs
+\usepackage{../template/baseStyle}
+\usepackage{../template/colors}
+\usepackage{../template/commands}
+\graphicspath{{./images/}}
+
+
+%  Document data
+
+\def \titlename{The Conquest}
+\def \subtitlename{Design document}
+\def \authorname{David Saltares Márquez}
+\def \revname{1}
+\def \datename{}
+
+
+% Configuration
+
+\title{\titlename}
+\author{\authorname}
+
+
+
+\begin{document}
+
+% Portada
+\input{../template/cover.tex}
+
+% Index
+\tableofcontents
+\cleardoublepage
+
+% Changes
+\section{Changelog}
+\label{sec:changelog} 
+
+Changes over different revisions of this document.
+
+%\begin{itemize}
+%	\item {\bf Version 1}
+%		\begin{itemize}
+%			\item Change1
+%			\item Change2
+%		\end{itemize}
+%\end{itemize}
+
+
+\section{Introduction}
+\label{sec:introduction}
+%\input{introduction.tex}
+
+\section{Gameplay}
+\label{sec:gameplay}
+%\input{gameplay.tex}
+
+\section{User interface}
+\label{sec:interface}
+%\input{interface.tex}
+
+\section{Art needed}
+\label{sec:art}
+%\input{art.tex}
+
+\end{document}
