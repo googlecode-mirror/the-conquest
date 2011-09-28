@@ -1,0 +1,9 @@
+The Conquest is a 2D multiplatform open source turn based historical strategy
+game written in C++ using Gosu as media library. It has several game modes such
+as Quick battle, Campaign and Online multiplayer.
+
+The game connects with a server that keeps track of global scoreboards. You can
+compete against other players and try to be the #1 in the world!
+
+The engine is historic period independent, so users can create maps, campaigns
+or new civilizations based on whichever age they want.
