@@ -108,9 +108,79 @@ levels are not excessively inaccessible.\\
 % Online multiplayer rules
 \subsubsection{Online multiplayer rules}
 
+\game\ will support online battles up to four players at the same time. One
+player has to be the host while the rest will have a client role. The host must
+select the online multiplayer match creation option while the rest will have to
+join the room created by the host (entering the host IP). Although every player
+can communicate with each other through a in-menu chat, the host will be the
+only one able to select the map to fight.\\
+
+Once the map starts, players will continue to be able to communicate through
+the same chat system. Whenever a player leaves the game (by his own will or by
+connection problems) the system will replace the lost commander with the AI.
+Unfortunately, the player won't be able to join again. En every other way,
+players will interact with the game as if it was a single player battle.\\
 
 \subsection{Comprised historical period}
 
+The official campaign innitially distributed with \game\ will be based on World
+War II (WWII from now on). Battles will be held in both frontlines, the Pacific
+and European ones. Every weapon, building and unit should accurately represent
+the WWII set. However, the visual style doesn't require highly detailed
+elements, just the opposite.\\
+
 \subsection{Units}
 
-\subsection{Terrain and buildings}
+% Infantry: light, heavy
+
+% Vehicles: recon, tank, heavy tank, anti-air
+
+% Artillery: artillery, rocket launcher, anti-air missiles
+
+% Ground transport
+
+% Sea: transport, submarine, cruiser, battleship
+
+% Air: transport copter, battle copter, fighter, bomber
+
+
+\subsection{Buildings}
+
+% Port, airport, barracks, city, operation center
+
+
+\subsection{Terrain}
+
+% Grass, rock, snow, mountain, forest, jungle, river, road
+
+\begin{table}[H]
+    \label{tab:terrain}
+    \begin{center}
+    \begin{tabular}{| l | m{5cm} | m{5cm} |}
+        \hline
+        \textbf{Terrain type} & \textbf{Advantages} & \textbf{Disadvantages} \\
+        \hline
+        Grass & -& - \\
+        \hline
+        Rock & - & - \\
+        \hline
+        Snow & - & Movement loss \\
+        \hline
+        Mountain & Cover bonus, vision range bonus & Movement loss \\
+        \hline
+        Forest & Cover bonus & Movement loss \\
+        \hline
+        Jungle & Cover bonus & Movement loss \\
+        \hline
+        River & Cover loss & Movement loss \\
+        \hline
+        Road & Cover loss & Movement bonus \\
+        \hline
+        Building & Cover bonus & - \\
+        \hline
+    \end{tabular}
+    \end{center}
+\caption{Terrain types and their properties}
+\end{table}
+
+
