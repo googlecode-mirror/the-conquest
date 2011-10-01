@@ -123,8 +123,8 @@ players will interact with the game as if it was a single player battle.\\
 
 \subsection{Comprised historical period}
 
-The official campaign innitially distributed with \game\ will be based on World
-War II (WWII from now on). Battles will be held in both frontlines, the Pacific
+The official campaign initially distributed with \game\ will be based on World
+War II (WWII from now on). Battles will be held in both front lines, the Pacific
 and European ones. Every weapon, building and unit should accurately represent
 the WWII set. However, the visual style doesn't require highly detailed
 elements, just the opposite.\\
@@ -148,10 +148,32 @@ elements, just the opposite.\\
 
 % Port, airport, barracks, city, operation center
 
+Every building in \game\ will take one map tile and will act as the
+\textit{building} terrain type. These are the available buildings in
+the game:
+
+\begin{itemize}
+    \item \textbf{Operation center}: main building, if the enemy takes it, the
+    player automatically loses. 20 conquer points.
+    \item \textbf{Barracks}: facility to gather land reinforcements. 10 conquer
+    points.
+    \item \textbf{Port}: facility to gather navy reinforcements. 10 conquer
+    points.
+    \item \textbf{Airport}: facility to gather air reinforcements. 10 conquer
+    points.
+\end{itemize}
+
+Conquer points represent the time a unit has to spend to take a building. If a
+unit is at its full strength, it can conquer a 10 points building in one single
+turn. Otherwise, the conquer will take more than one turn.\\
 
 \subsection{Terrain}
 
 % Grass, rock, snow, mountain, forest, jungle, river, road
+
+Terrain affects unit movement, cover and vision range among other properties.
+In \game\ there are different kinds of terrain which are described in the table
+below.\\
 
 \begin{table}[H]
     \label{tab:terrain}
