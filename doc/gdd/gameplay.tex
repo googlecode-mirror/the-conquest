@@ -142,35 +142,32 @@ The following table contains the names and properties of every ground unit in
 \begin{table}[H]
     \label{tab:ground-units}
     \begin{center}
-    \begin{tabular}{| l | m{1cm} | m{1.7cm} | m{1.0cm} | m{1.5cm} | m{1.1cm} | m{2.5cm} | m{2.5cm} |}
+    \begin{tabular}{| l | m{1cm} | m{1.7cm} | m{1.0cm} | m{1.5cm} |}
         \hline
-        \textbf{Unit name} & \textbf{Cost} & \textbf{Movement} & \textbf{Power} & \textbf{Defense} & \textbf{Vision} & \textbf{Strengths} & \textbf{Weaknesses} \\
+        \textbf{Unit name} & \textbf{Cost} & \textbf{Movement} & \textbf{Vision} & \textbf{Range}\\
         \hline
-        Light infantry &  &  &  &  &  &  &  \\
+        Light infantry & 1000 & 3 & 2  & 1 \\
         \hline
-        Heavy infantry &  &  &  &  &  &  &  \\
+        Heavy infantry & 3000 & 2 & 2 & 1 \\
         \hline
-        Recon &  &  &  &  &  &  &  \\
+        Recon & 4000 & 8 & 5 & 1 \\
         \hline
-        Tank &  &  &  &  &  &  &  \\
+        Tank & 7000 & 6 & 3 & 1 \\
         \hline
-        Heavy tank &  &  &  &  &  &  &  \\
+        Heavy tank & 16000 & 5 & 1 & 1 \\
         \hline
-        Anti-air &  &  &  &  &  &  &  \\
+        Anti-air & 8000 & 6 & 2 & 1 \\
         \hline
-        Artillery &  &  &  &  &  &  &  \\
+        Artillery & 6000 & 5 & 1 & 3 \\
         \hline
-        Rocket launcher &  &  &  &  &  &  &  \\
+        Rocket launcher & 15000 & 5 & 1 & 5 \\
         \hline
-        Transport &  &  &  &  &  &  &  \\
+        Transport & 5000 & 8 & 2 & - \\
         \hline
     \end{tabular}
     \end{center}
 \caption{Ground units and their properties}
 \end{table}
-
-\textbf{Additional restrictions}: Anti-air units can only attack air enemy
-units and Transport units cannot attack at all.\\
 
 
 % Sea: transport, submarine, cruiser, battleship
@@ -180,26 +177,26 @@ The table below contains the names and attributes of every sea unit in \game.\\
 \begin{table}[H]
     \label{tab:sea-units}
     \begin{center}
-    \begin{tabular}{| l | m{1cm} | m{1.7cm} | m{1.0cm} | m{1.5cm} | m{1.1cm} | m{2.5cm} | m{2.5cm} |}
+    \begin{tabular}{| l | m{1cm} | m{1.7cm} | m{1.0cm} | m{1.5cm} |}
         \hline
-        \textbf{Unit name} & \textbf{Cost} & \textbf{Movement} & \textbf{Power} & \textbf{Defense} & \textbf{Vision} & \textbf{Strengths} & \textbf{Weaknesses} \\
+        \textbf{Unit name} & \textbf{Cost} & \textbf{Movement} & \textbf{Vision} & \textbf{Range}\\
         \hline
-        Transport &  &  &  &  &  &  &  \\
+        Lander & 12000 & 6 & 1 & - \\
         \hline
-        Submarine &  &  &  &  &  &  &  \\
+        Submarine & 20000 & 5 & 5 & 1 \\
         \hline
-        Cruiser &  &  &  &  &  &  &  \\
+        Cruiser & 18000 & 6 & 3 & 1 \\
         \hline
-        Battleship &  &  &  &  &  &  &  \\
+        Battleship & 28000 & 5 & 2 & 6 \\
         \hline
     \end{tabular}
     \end{center}
 \caption{Seat units and their properties}
 \end{table}
 
-\textbf{Additional restrictions}: Sea Transport units cannot attack at all and
-Submarines can't stay more than three turns below the surface. However, when a
-Submarine is below the surface it can't be targeted.\\
+\textbf{Additional restrictions}: Submarines can't stay more than three turns
+below the surface. However, when a Submarine is below the surface it can't be
+targeted.\\
 
 % Air: transport copter, battle copter, fighter, bomber
 
@@ -208,24 +205,22 @@ The following table shows every air unit name and its properties.\\
 \begin{table}[H]
     \label{tab:air-units}
     \begin{center}
-    \begin{tabular}{| l | m{1cm} | m{1.7cm} | m{1.0cm} | m{1.5cm} | m{1.1cm} | m{2.5cm} | m{2.5cm} |}
+    \begin{tabular}{| l | m{1cm} | m{1.7cm} | m{1.0cm} | m{1.5cm} |}
         \hline
-        \textbf{Unit name} & \textbf{Cost} & \textbf{Movement} & \textbf{Power} & \textbf{Defense} & \textbf{Vision} & \textbf{Strengths} & \textbf{Weaknesses} \\
+        \textbf{Unit name} & \textbf{Cost} & \textbf{Movement} & \textbf{Vision} & \textbf{Range}\\
         \hline
-        Transport copter &  &  &  &  &  &  &  \\
+        Transport copter & 5000 & 6 & 2 & - \\
         \hline
-        Battle copter &  &  &  &  &  &  &  \\
+        Battle copter & 9000 & 6 & 3 & 1 \\
         \hline
-        Fighter &  &  &  &  &  &  &  \\
+        Fighter & 20000 & 9 & 2 & 1 \\
         \hline
-        Bomber &  &  &  &  &  &  &  \\
+        Bomber & 22000 & 7 & 2 & 1 \\
         \hline
     \end{tabular}
     \end{center}
 \caption{Air units and their properties}
 \end{table}
-
-\textbf{Additional restrictions}: Transport copter can't attack other units.\\
 
 \subsection{Buildings}
 
@@ -276,23 +271,23 @@ below.\\
         \hline
         \textbf{Terrain type} & \textbf{Advantages} & \textbf{Disadvantages} \\
         \hline
-        Grass & -& - \\
+        Grass &  &  \\
         \hline
-        Rock & - & - \\
+        Rock &  &  \\
         \hline
-        Snow & - & Movement loss \\
+        Snow &  & -1 movement \\
         \hline
-        Mountain & Cover bonus, vision range bonus & Movement loss \\
+        Mountain & +10\% cover, +1 vision, 10\% attack & -1 movement \\
         \hline
-        Forest & Cover bonus & Movement loss \\
+        Forest & +10\% cover & -1 movement \\
         \hline
-        Jungle & Cover bonus & Movement loss \\
+        Jungle & +10\% cover & -1 movement \\
         \hline
-        River & Cover loss & Movement loss \\
+        River & -10\% cover & -1 movement \\
         \hline
-        Road & Cover loss & Movement bonus \\
+        Road & -10\% cover & -1 movement \\
         \hline
-        Building & Cover bonus & - \\
+        Building & +10\% cover &  \\
         \hline
     \end{tabular}
     \end{center}
