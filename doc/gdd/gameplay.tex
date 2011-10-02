@@ -158,9 +158,9 @@ The following table contains the names and properties of every ground unit in
         \hline
         Anti-air & 8000 & 6 & 2 & 1 \\
         \hline
-        Artillery & 6000 & 5 & 1 & 3 \\
+        Missile & 6000 & 5 & 1 & 3 \\
         \hline
-        Rocket launcher & 15000 & 5 & 1 & 5 \\
+        Rocket & 15000 & 5 & 1 & 5 \\
         \hline
         Transport & 5000 & 8 & 2 & - \\
         \hline
@@ -220,6 +220,62 @@ The following table shows every air unit name and its properties.\\
     \end{tabular}
     \end{center}
 \caption{Air units and their properties}
+\end{table}
+
+The following table shows the damage a certain kind of unit causes to another.
+Of course, these values correspond to a balanced combat so no bonus or boost
+have been applied.\\
+
+\begin{table}[H]
+    \label{tab:combat}
+    \begin{center}
+    \tiny{
+    \begin{tabular}{| l | l | l | l | l | l | l | l | l | l | l | l | l | l | l | l |}
+        \hline
+         & Infantry & H. Infantry & Recon & Tank & H. Tank & Artillery & Rockets & Anti-air & Missiles & Copter & Fighter & Bomber & Cruiser & Sub & Battleship \\
+        \hline
+        Infantry & 55\% & 65\% & 70\% & 75\% & 105\% & 90\% & 95\% & 105\% & - & 75\% & -
+        & 110\% & - & - & 95\% \\ 
+        \hline
+        H. Infantry & 45\% & 55\% & 65\% & 70\% & 95\% & 85\% & 90\% & 105\% & - & 75\% &
+        -& 110\% & - & - & 90\% \\ 
+        \hline
+        Recon & 12\% & 85\% & 35\% & 85\% & 105\% & 80\% & 90\% & 60\% & - & 55\% & - & 105\% & - & - & 90\% \\ 
+        \hline
+        Tank & 5\% & 55\% & 6\% & 55\% & 85\% & 70\% & 85\% & 25\% & - & 55\% & - & 105\% & - & - & 85\% \\ 
+        \hline
+        H. Tank & 1\% & 15\% & 1\% & 15\% & 55\% & 45\% & 55\% & 10\% & - & 25\% & - & 95\% & - & - & 55\% \\ 
+        \hline
+        Transport & 14\% & 75\% & 45\% & 75\% & 105\% & 70\% & 80\% & 50\% & - & 60\% & - & 105\% & - & - & 80\% \\ 
+        \hline
+        Artillery & 15\% & 70\% & 45\% & 70\% & 105\% & 75\% & 80\% & 50\% & - & 65\% & - & 105\% & - & - & 80\% \\ 
+        \hline
+        Rockets & 25\% & 85\% & 55\% & 85\% & 105\% & 80\% & 85\% & 45\% & - & 65\% & - & 105\% & - & - & 85\% \\ 
+        \hline
+        Anti-air & 5\% & 65\% & 4\% & 65\% & 105\% & 75\% & 85\% & 45\% & - & 25\% & - & 95\% & - & - & 85\% \\ 
+        \hline
+        Missiles & 25\% & 85\% & 28\% & 85\% & 105\% & 80\% & 90\% & 55\% & - & 65\% & - & 105\% & - & - & 90\% \\ 
+        \hline
+        Copter & 7\% & 9\% & 10\% & 10\% & 12\% & - & - & 120\% & 120\% & 65\% & 100\% & - & 115\% & - & - \\ 
+        \hline
+        T. Copter & 30\% & 35\% & 35\% & 40\% & 45\% & - & - & 120\% & 120\% & 95\% & 100\% & - & 115\% & - & - \\ 
+        \hline
+        Fighter & - & - & - & - & - & - & - & 65\% & 100\% & - & 55\% & - & 55\% & - & - \\ 
+        \hline
+        Bomber & - & - & - & - & - & - & - & 75\% & 100\% & - & 100\% & - & 65\% & - & - \\ 
+        \hline
+        Lander & - & - & - & 10\% & 35\% & 55\% & 60\% & - & - & 25\% & - & 95\% & - & 95\% & 95\% \\ 
+        \hline
+        Cruiser & - & - & - & 5\% & 55\% & 65\% & 85\% & - & - & 55\% & - & 85\% & - & 25\% & 95\% \\ 
+        \hline
+        Sub & - & - & - & 1\% & 10\% & 60\% & 85\% & - & - & 25\% & - & 95\% & 90\% & 55\% & 95\% \\ 
+        \hline
+        Battleship & - & - & - & 1\% & 10\% & 40\% & 55\% & - & - & 25\% & - & 75\% & - & 55\% & 50\% \\ 
+        \hline
+    \end{tabular}
+    }
+    \end{center}
+\caption{Combat table}
 \end{table}
 
 \subsection{Buildings}
